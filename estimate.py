@@ -54,7 +54,7 @@ import random
 	     	    d=(p**2+q**2)**(1/2)
 	     	    if (d<=1):
 	      		    y+=1
-	         	    i+=1
+	         	i+=1
 			
 	      x=(4*y)/n
 	      return x
