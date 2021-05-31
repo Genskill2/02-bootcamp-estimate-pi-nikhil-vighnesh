@@ -36,9 +36,9 @@ if __name__ == "__main__":
 	      n=int(n)
 	      i=1
 	      while(i<=n):
-	  	      x*=((2*i)*2)/(((2*i)*2)-1)
+	  	      x*=((2*i)**2)/(((2*i)**2)-1)
 	  	      i+=1
-	  return x*2
+	      return x*2
 	
 	
 import random
@@ -49,12 +49,12 @@ import random
     	  y=0
     	  while(i<=n):
 		
-   	  	p=random.random()
-	     	q=random.random()
-	     	d=(p*2+q2)*(1/2)
-	     	if (d<=1):
-	      		y+=1
-	         	i+=1
+   	  	    p=random.random()
+	     	    q=random.random()
+	     	    d=(p**2+q**2)**(1/2)
+	     	    if (d<=1):
+	      		    y+=1
+	         	    i+=1
 			
 	      x=(4*y)/n
 	      return x
